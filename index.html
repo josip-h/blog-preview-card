@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon import -->
-    <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-32x32.png">
     <!-- Font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,35 +15,43 @@
     <title>Blog Preview Card</title>
 </head>
 <body>
+
     <header>
-        <h1>Blog Preview Card Solution</h1>
+        <h1 class="header__title">Blog Preview Card Solution</h1>
     </header>
+
     <main>
 
         <div class="blog-card blog-card--white">
 
-            <div class="blog-card__img-wrapper">
-                <img src="./images/blogimage.png" alt="Card image" class="blog-card__img">
+            <div class="blog-card__image-wrapper">
+                <img src="./assets/images/illustration-article.svg" alt="Card image" class="blog-card__image">
             </div>
 
             <div class="blog-card__text-wrapper">
-                <a class="blog-card__category-tag">Learning</a>
+                <a class="blog-card__category-tag flex-center">Learning</a>
                 <small class="blog-card__date">Published 21 Dec 2023</small>
-                <h2 class="blog-card__title">HTML & CSS foundations</h2>
+                <a href="#" class="blog-card__title">HTML & CSS foundations</a>
                 <p class="blog-card__description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
             </div>
             
-            <div class="blog-card__author-wrapper">
-                <img src="./images/image-avatar.webp" alt="Author picture" class="blog-card__author-img">
-                <h3>Greg Hooper</h3>
+            <div class="blog-card__author-wrapper flex-center">
+                <img src="./assets/images/image-avatar.webp" alt="Author picture" class="blog-card__author-picture">
+                <h3 class="blog-card__author-name">Greg Hooper</h3>
             </div>
 
         </div>
 
     </main>
+
     <footer>
+
         <div class="attribution">
-        </div>
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.frontendmentor.io/profile/josip-h">Josip Hanzevacki</a>.
+          </div>
+          
     </footer>
+
 </body>
 </html>
