@@ -27,6 +27,11 @@ body {
     background: var(--color-background);
 }
 
+a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
 /* Utilities */
 .flex-center {
     display: flex;
@@ -86,6 +91,10 @@ main {
     font-weight: 800;
 }
 
+.blog-card__category-tag:hover {
+    opacity: 0.8;
+}
+
 .blog-card__date {
     display: block;
     margin-top: 12px;
@@ -128,6 +137,10 @@ main {
     margin-left: 12px;
     font-size: 14px;
     font-weight: 800;
+}
+
+.blog-card__author-name:hover {
+    opacity: 0.8;
 }
 
 /* Footer */
