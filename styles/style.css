@@ -50,7 +50,8 @@ a {
 .header__title {
     text-align: center;
     padding: 30px;
-    /* margin-top: 30px; */
+    font-size: 3rem;
+    display: none;
 }
 
 /* Main */
@@ -67,10 +68,6 @@ main {
     border-radius: 20px;
     box-shadow: 8px 8px var(--color-black);
 }
-
-/* .blog-card:hover {
-    box-shadow: 16px 16px var(--color-black);
-} */
 
 .blog-card--white {
     background: var(--color-white);
@@ -170,6 +167,10 @@ footer {
     .blog-card {
         margin: 0 auto;
         max-width: 384px;
+    }
+
+    .blog-card:hover {
+        box-shadow: 16px 16px var(--color-black);
     }
 
     .blog-card__text-wrapper {
